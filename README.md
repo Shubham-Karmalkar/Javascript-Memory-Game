@@ -22,7 +22,7 @@ This is a Memory game of cards with each card when clicked shows image that user
 To deploy this project run
 
 ```bash
-  You can dowload this and can deploy on any server. 
+  You can download this and can deploy on any server. 
   I have already deployed it on Netlify link is provided below in
   Demo
 ```
