@@ -1,0 +1,33 @@
+
+
+body{
+    background-image: linear-gradient(to right,rgb(126, 1, 84),rgb(2, 2, 112),rgb(0, 65, 38));
+    color: rgba(255, 255,255,0.7);
+}
+#grid{
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    /* margin: 0px; */
+    display: inline-block;
+    line-height: 0px;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+img{
+    outline: 1px solid black;
+}
+button{
+    opacity: 0;
+    font-size: 17px;
+    padding: 5px;
+    transition: 2s;
+}
+@media screen and (max-width : 420px) {
+    img{
+        width : 80px;
+    }
+}
