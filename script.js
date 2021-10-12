@@ -102,7 +102,7 @@ window.addEventListener("load",function runGame(){
      selectedImg.push(randomCard[index].name);
      selectedId.push(index);
      if(selectedImg.length == 2 ){
-       setTimeout(checkMatch,500); 
+       setTimeout(checkMatch,1000); 
        attempt++;
      }
 
